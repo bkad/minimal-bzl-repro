@@ -5,3 +5,8 @@ py_binary(
     srcs = ["__main__.py"],
     main = "__main__.py",
 )
+
+cc_binary(
+    name = "hello-world",
+    srcs = ["main.cpp"],
+)
